@@ -2,6 +2,7 @@
 Esse projeto consiste em uma implementação de uma pilha dinâmica em linguagem C, utilizando ponteiros e alocação dinâmica de memória.
 
 ## Estrutura do Código
+----------------
 O código é composto pelos seguintes elementos:
 
 - `typedef struct no`: define a estrutura de um nó da pilha, que contém um valor inteiro e um ponteiro para o próximo nó.
@@ -14,9 +15,13 @@ O código é composto pelos seguintes elementos:
 - `int desempilhar(Pilha *p)`: remove o elemento no topo da pilha, atualizando o topo e a quantidade. Retorna o valor do elemento removido ou 0 se a pilha estiver vazia.
 - `int main()`: função principal que realiza a interação com o usuário, permitindo empilhar, desempilhar e consultar o topo da pilha.
 ## Como Utilizar
+--------
 Para utilizar a implementação da pilha dinâmica, basta compilar o código-fonte utilizando um compilador C e executar o arquivo gerado. O usuário poderá realizar as seguintes operações:
 
 - **Empilhar**: adicionar um novo elemento à pilha, informando um valor inteiro. Se a operação for bem sucedida, a mensagem "empilhado" será exibida na tela.
 - **Desempilhar**: remover o elemento no topo da pilha e exibir o seu valor na tela. Se a pilha estiver vazia, a mensagem "pilha vazia" será exibida.
 - **Consultar o topo**: exibir o valor do elemento no topo da pilha, sem removê-lo.
 - **Sair**: encerrar o programa.
+## Autor  
+--------------
+Esse projeto foi desenvolvido por Eric, como parte de um estudo sobre Estrutura de Dados  em C.
